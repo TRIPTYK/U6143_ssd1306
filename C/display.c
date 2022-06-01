@@ -6,8 +6,6 @@ Demo for ssd1306 i2c driver for  Raspberry Pi
 #include "time.h"
 #include <unistd.h>
 
-
-
 int main(void) 
 {
     unsigned char symbol=0;
@@ -26,7 +24,7 @@ int main(void)
         sleep(1);
         sleep(1);
         symbol++;
-        if(symbol==3)
+        if(symbol==5)
         {
           symbol=0;
         }

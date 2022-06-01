@@ -416,6 +416,11 @@ void LCD_Display(unsigned char symbol)
     case 2:
       LCD_DisplaySdMemory();
     break;
+    case 3:
+      const char* brand = "TRIPTYK - YOUR DIGITAL PARTNER";
+      OLED_ShowString(0,0,brand,strlen(brand)); 
+    break;
+    break;
     default:
     break;
   }
